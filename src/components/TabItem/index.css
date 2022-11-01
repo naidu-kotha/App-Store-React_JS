@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.tab-item {
+  padding-right: 5px;
+}
+
+@media screen and (min-width: 992px) {
+  .tab-item {
+    padding-right: 24px;
+  }
+}
+
+.btn {
+  font-family: 'Bree Serif';
+  color: #7b8794;
+  font-weight: 500;
+  font-size: 14px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+  .btn {
+    font-size: 18px;
+  }
+}
+
+.active-tab {
+    border-bottom: 1px solid #2563eb;
+}

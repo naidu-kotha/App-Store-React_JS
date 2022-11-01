@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.app-card {
+  background: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  width: 100px;
+}
+
+@media screen and (min-width: 992px) {
+  .app-card {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    width: 150px;
+  }
+}
+
+.app-icon {
+  width: 80%;
+}
+
+.app-name {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  color: #1e293b;
+}
